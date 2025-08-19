@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Crisis Mapping Brand Colors
+				emergency: 'hsl(var(--emergency))',
+				warning: 'hsl(var(--warning))',
+				tech: 'hsl(var(--tech))',
+				success: 'hsl(var(--success))'
+			},
+			backgroundImage: {
+				'gradient-emergency': 'var(--gradient-emergency)',
+				'gradient-tech': 'var(--gradient-tech)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'emergency': 'var(--shadow-emergency)',
+				'tech': 'var(--shadow-tech)',
+				'elevated': 'var(--shadow-elevated)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
