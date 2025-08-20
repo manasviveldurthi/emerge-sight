@@ -11,9 +11,9 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/features", label: "Features" },
-    { path: "/demo", label: "Demo" },
+    { path: "/about", label: "About Us" },
+    { path: "/services", label: "Services" },
+    { path: "/portfolio", label: "Portfolio" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -23,12 +23,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="p-2 bg-gradient-emergency rounded-lg group-hover:scale-110 transition-smooth">
+            <div className="p-2 bg-gradient-primary rounded-lg group-hover:scale-110 transition-smooth">
               <AlertTriangle className="h-6 w-6 text-white" />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-foreground">Crisis Mapping</span>
-              <span className="text-xs text-muted-foreground">Technology for Safer Communities</span>
+              <span className="text-xl font-bold text-foreground">ModernTech</span>
+              <span className="text-xs text-muted-foreground">Digital Solutions for Modern Business</span>
             </div>
           </Link>
 
@@ -40,17 +40,17 @@ const Navigation = () => {
                 to={item.path}
                 className={`text-sm font-medium transition-smooth relative ${
                   isActive(item.path)
-                    ? "text-emergency"
-                    : "text-foreground hover:text-emergency"
+                    ? "text-purple"
+                    : "text-foreground hover:text-purple"
                 }`}
               >
                 {item.label}
                 {isActive(item.path) && (
-                  <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-emergency rounded-full" />
+                  <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-primary rounded-full" />
                 )}
               </Link>
             ))}
-            <Button variant="default" size="sm" className="bg-gradient-emergency border-0 hover:shadow-emergency">
+            <Button variant="default" size="sm" className="bg-gradient-primary border-0 hover:shadow-purple">
               Get Started
             </Button>
           </div>
@@ -79,15 +79,15 @@ const Navigation = () => {
                   onClick={() => setIsOpen(false)}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-smooth ${
                     isActive(item.path)
-                      ? "bg-emergency/10 text-emergency"
-                      : "text-foreground hover:bg-muted hover:text-emergency"
+                      ? "bg-purple/10 text-purple"
+                      : "text-foreground hover:bg-muted hover:text-purple"
                   }`}
                 >
                   {item.label}
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button variant="default" size="sm" className="w-full bg-gradient-emergency border-0">
+                <Button variant="default" size="sm" className="w-full bg-gradient-primary border-0">
                   Get Started
                 </Button>
               </div>

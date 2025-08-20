@@ -9,17 +9,17 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="p-2 bg-gradient-emergency rounded-lg">
+              <div className="p-2 bg-gradient-primary rounded-lg">
                 <AlertTriangle className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-foreground">Crisis Mapping</h3>
-                <p className="text-sm text-muted-foreground">Technology for Safer Communities</p>
+                <h3 className="text-xl font-bold text-foreground">ModernTech</h3>
+                <p className="text-sm text-muted-foreground">Digital Solutions for Modern Business</p>
               </div>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Empowering communities with real-time crisis response technology. 
-              Together, we build safer neighborhoods through innovative mapping and alert systems.
+              Transforming businesses through innovative digital solutions. 
+              We create modern experiences that drive growth and success.
             </p>
             <div className="flex space-x-4">
               <a
@@ -77,13 +77,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/features" className="text-muted-foreground hover:text-emergency transition-smooth">
-                  Features
+                <Link to="/services" className="text-muted-foreground hover:text-purple transition-smooth">
+                  Services
                 </Link>
               </li>
               <li>
-                <Link to="/demo" className="text-muted-foreground hover:text-emergency transition-smooth">
-                  Demo
+                <Link to="/portfolio" className="text-muted-foreground hover:text-purple transition-smooth">
+                  Portfolio
                 </Link>
               </li>
             </ul>

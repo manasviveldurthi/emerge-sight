@@ -62,25 +62,32 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Crisis Mapping Brand Colors
-				emergency: 'hsl(var(--emergency))',
-				warning: 'hsl(var(--warning))',
-				tech: 'hsl(var(--tech))',
-				success: 'hsl(var(--success))'
+				// Modern Vibrant Brand Colors
+				purple: 'hsl(var(--purple))',
+				blue: 'hsl(var(--blue))',
+				green: 'hsl(var(--green))',
+				orange: 'hsl(var(--orange))',
+				pink: 'hsl(var(--pink))',
+				cyan: 'hsl(var(--cyan))'
 			},
 			backgroundImage: {
-				'gradient-emergency': 'var(--gradient-emergency)',
-				'gradient-tech': 'var(--gradient-tech)',
-				'gradient-hero': 'var(--gradient-hero)'
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-rainbow': 'var(--gradient-rainbow)'
 			},
 			boxShadow: {
-				'emergency': 'var(--shadow-emergency)',
-				'tech': 'var(--shadow-tech)',
-				'elevated': 'var(--shadow-elevated)'
+				'purple': 'var(--shadow-purple)',
+				'blue': 'var(--shadow-blue)',
+				'green': 'var(--shadow-green)',
+				'elevated': 'var(--shadow-elevated)',
+				'glow': 'var(--shadow-glow)'
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',
-				'bounce': 'var(--transition-bounce)'
+				'bounce': 'var(--transition-bounce)',
+				'spring': 'var(--transition-spring)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

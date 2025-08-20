@@ -101,11 +101,11 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Contact <span className="bg-gradient-emergency bg-clip-text text-transparent">Crisis Mapping</span>
+            Contact <span className="bg-gradient-primary bg-clip-text text-transparent">ModernTech</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            Ready to bring Crisis Mapping to your community? Have questions about our platform? 
-            Get in touch with our team or join our volunteer community.
+            Ready to transform your business with cutting-edge digital solutions? 
+            Let's discuss your project and bring your vision to life.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ const Contact = () => {
               <Card className="border-0 shadow-elevated">
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center">
-                    <MessageSquare className="h-6 w-6 mr-3 text-emergency" />
+                    <MessageSquare className="h-6 w-6 mr-3 text-purple" />
                     Send us a Message
                   </CardTitle>
                 </CardHeader>
@@ -133,7 +133,7 @@ const Contact = () => {
                           onChange={handleInputChange}
                           placeholder="Your full name"
                           required
-                          className="border-2 focus:border-emergency"
+                          className="border-2 focus:border-purple"
                         />
                       </div>
                       <div className="space-y-2">
@@ -268,7 +268,7 @@ const Contact = () => {
               For urgent technical issues affecting emergency response operations:
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-emergency border-0 hover:shadow-emergency">
+              <Button size="lg" className="bg-gradient-primary border-0 hover:shadow-purple">
                 <Phone className="mr-2 h-5 w-5" />
                 Emergency Hotline: +1 (555) 911-HELP
               </Button>

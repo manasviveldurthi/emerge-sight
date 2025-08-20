@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Crisis Mapping Design System - Emergency Response & Technology Theme
+/* Modern Vibrant Design System - Bright & Professional
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 13% 18%;
+    --foreground: 225 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 13% 18%;
+    --card-foreground: 225 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 13% 18%;
+    --popover-foreground: 225 15% 15%;
 
-    /* Crisis Brand Colors */
-    --primary: 0 84% 60%;         /* Emergency Red */
+    /* Vibrant Brand Colors */
+    --primary: 262 83% 58%;        /* Electric Purple */
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 217 91% 60%;     /* Tech Blue */
+    --secondary: 221 83% 53%;      /* Bright Blue */
     --secondary-foreground: 0 0% 98%;
 
     --muted: 220 14% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 25 95% 53%;         /* Safety Orange */
+    --accent: 142 71% 45%;         /* Emerald Green */
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
@@ -35,27 +35,34 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 0 84% 60%;
+    --ring: 262 83% 58%;
 
-    /* Crisis Mapping Specific Tokens */
-    --emergency: 0 84% 60%;       /* Emergency Red */
-    --warning: 25 95% 53%;        /* Safety Orange */
-    --tech: 217 91% 60%;          /* Tech Blue */
-    --success: 142 76% 36%;       /* Safety Green */
+    /* Modern Vibrant Tokens */
+    --purple: 262 83% 58%;         /* Electric Purple */
+    --blue: 221 83% 53%;           /* Bright Blue */
+    --green: 142 71% 45%;          /* Emerald Green */
+    --orange: 25 95% 53%;          /* Vibrant Orange */
+    --pink: 330 81% 60%;           /* Hot Pink */
+    --cyan: 184 91% 47%;           /* Bright Cyan */
     
     /* Gradients */
-    --gradient-emergency: linear-gradient(135deg, hsl(var(--emergency)), hsl(var(--warning)));
-    --gradient-tech: linear-gradient(135deg, hsl(var(--tech)), hsl(217 91% 70%));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--emergency)), hsl(var(--warning)), hsl(var(--tech)));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--purple)), hsl(var(--blue)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--blue)), hsl(var(--cyan)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--green)), hsl(var(--cyan)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--purple)), hsl(var(--pink)), hsl(var(--orange)));
+    --gradient-rainbow: linear-gradient(135deg, hsl(var(--purple)), hsl(var(--blue)), hsl(var(--green)), hsl(var(--orange)));
     
     /* Shadows */
-    --shadow-emergency: 0 10px 30px -10px hsl(var(--emergency) / 0.3);
-    --shadow-tech: 0 10px 30px -10px hsl(var(--tech) / 0.3);
-    --shadow-elevated: 0 20px 40px -10px hsl(220 13% 18% / 0.1);
+    --shadow-purple: 0 10px 30px -10px hsl(var(--purple) / 0.3);
+    --shadow-blue: 0 10px 30px -10px hsl(var(--blue) / 0.3);
+    --shadow-green: 0 10px 30px -10px hsl(var(--green) / 0.3);
+    --shadow-elevated: 0 20px 40px -10px hsl(225 15% 15% / 0.1);
+    --shadow-glow: 0 0 40px hsl(var(--purple) / 0.2);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
